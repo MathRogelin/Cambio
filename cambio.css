@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2{
+    margin-top: 0;
+    background-color: aqua;
+    padding: 30px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    padding: 20px;
+}
+pre{
+    text-align: center;
+    font-size: 30px;
+}

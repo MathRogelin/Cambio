@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Cambio</title>
+    <link rel="stylesheet" href="cambio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Programa Cambio</h1>
+    <form action="">
+        <p>
+            Valor:
+            <input type="number" name="" id="inValor">
+        </p>
+        <p>
+            Converter:
+            <select name="" id="inConverter">
+                <option id="inReal"  value="1" selected> Real (BRL)</option>
+                <option id="InBoliviano" value="0.69"> Boliviano (BOB)</option>
+                <option id="inDolar" value="5"> Dólar dos Estados Unidos (EUA)</option>
+                <option id="inEuro" value="5.23"> Euro (EUR)</option>
+                <option id="inNovoSol" value="1.30"> Novo sol (PEN)</option>
+                <option id="inGuarani" value="1480.60"> Guarani (PYG)</option>
+            </select>
+        </p>
+        <p>
+            Para:
+            <select name="" id="inPara">
+                <option id="inReal"  value="1" selected> Real (BRL)</option>
+                <option id="InBoliviano" value="0.69"> Boliviano (BOB)</option>
+                <option id="inDolar" value="5"> Dólar dos Estados Unidos (EUA)</option>
+                <option id="inEuro" value="5.23"> Euro (EUR)</option>
+                <option id="inNovoSol" value="1.30"> Novo sol (PEN)</option>
+                <option id="inGuarani" value="7753.9961"> Guarani (PYG)</option>
+            </select>
+        </p>
+        <input type="submit" value="Converter">
+    </form>
+    <h2>Resultado da Converção</h2>
+    <pre></pre>
+    <script src="cambio.js"></script>
+</body>
+</html>
